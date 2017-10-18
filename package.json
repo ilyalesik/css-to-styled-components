@@ -1,0 +1,19 @@
+{
+  "name": "css-to-styled-components",
+  "version": "1.0.0",
+  "description": "Convert css to styled-components",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"*_spec@(.js|.jsx)\""
+  },
+  "keywords": [
+    "css",
+    "styled-components"
+  ],
+  "author": "Ilya Lesik",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
