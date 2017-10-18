@@ -8,5 +8,5 @@ module.exports = function (cssContent) {
                 .replace(/\-/g, '');
             return "export const " + classNameConverted + " = styled.span`";
         })
-        .replace(/\}/g, "`");
+        .replace(/\}/g, "`;");
 };

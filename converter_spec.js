@@ -20,7 +20,7 @@ describe('converter', function () {
             "\tline-height: 1.09;\n" +
             "\ttext-align: left;\n" +
             "\tcolor: #525252;\n" +
-            "`";
+            "`;";
 
         expect(converter(css)).to.equal(styledComponent);
 
@@ -52,7 +52,7 @@ describe('converter', function () {
             "\tline-height: 1.09;\n" +
             "\ttext-align: left;\n" +
             "\tcolor: #525252;\n" +
-            "`\n" +
+            "`;\n" +
             "\n" +
             "export const HeadingH1LeftLight = styled.span`\n" +
             "\tfont-family: BloggerSans;\n" +
@@ -61,7 +61,7 @@ describe('converter', function () {
             "\tline-height: 1.09;\n" +
             "\ttext-align: left;\n" +
             "\tcolor: #ffffff;\n" +
-            "`";
+            "`;";
 
         expect(converter(css)).to.equal(styledComponent);
 
